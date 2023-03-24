@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #EC715F;
+  height: 70px;
+  width: 100%;
+}
+
+.nav-list {
+  width: 1024px;
+  height: 70px;
+}
+
+.nav-list-item {
+  height: 70px;
+  list-style: none;
+  font-size: 16px;
+  color: #FAFAFA;
+  display: inline-block;
+  margin-left: 30px;
+  text-align: center;
+}
