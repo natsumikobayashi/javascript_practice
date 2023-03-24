@@ -8,19 +8,26 @@ header {
   background-color: #EC715F;
   height: 70px;
   width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
-.nav-list {
+.header-item {
+  display: flex;
+  justify-content: space-between;
   width: 1024px;
   height: 70px;
 }
 
+.nav-list {
+  display: flex;
+  align-items: center;
+}
 .nav-list-item {
-  height: 70px;
   list-style: none;
   font-size: 16px;
   color: #FAFAFA;
   display: inline-block;
-  margin-left: 30px;
+  margin-right: 30px;
   text-align: center;
 }
