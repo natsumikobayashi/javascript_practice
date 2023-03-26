@@ -53,7 +53,14 @@ header {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio-item {
   background-color: #ECEFF1;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -62,6 +69,7 @@ main {
   width: 920px;
   text-align: center;
 }
+
 
 .portfolio-title {
   font-size: 32px;
@@ -102,4 +110,104 @@ hr {
 
 .portfolio-image:nth-child(n+4) {
   margin-top: 10px;
+}
+
+.feature {
+  text-align: center;
+  width: 980px;
+  padding-bottom: 90px;
+}
+
+.feature-title {
+  margin-top: 90px;
+  font-size: 32px;
+  color: #000000;
+  margin-bottom: 8px;
+}
+
+.feature-text {
+  font-size: 16px;
+  color: #000000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.feature-item {
+  display: flex;
+}
+
+.feature-item-content {
+  width: 320px;
+  margin-right: 10px;
+}
+
+.feature-item-content:last-child {
+  margin-right: 0;
+}
+
+.feature-item-title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.size {
+  font-size: 60px;
+}
+
+.feature-detail {
+  text-align: justify;
+}
+
+.profile-item {
+  background-color: #ECEFF1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.profile {
+  width: 1024px;
+}
+
+.profile-title {
+  font-size: 32px;
+  color: #000000;
+  margin-top: 90px;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.profile-text {
+  font-size: 16px;
+  color: #000000;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.profile-item-content {
+ display: flex;
+}
+
+.profile-content {
+  width: 512px;
+}
+
+.profile-image {
+  width: 250px;
+  height: 250px;
+}
+
+.profile-detail-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.profile-detail-text {
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 20px;
 }
