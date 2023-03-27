@@ -4,20 +4,24 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width" />
     <title>MySite</title>
   </head>
 
   <body>
     <header>
       <div class="header-item">
-        <a href="#"><image src= "img/logo.png" height="70px"></li></a>
+        <a href="#"><image src= "img/logo.png" class="logo"></li></a>
         <nav class="nav-list">
-          <ul>
+          <ul class="nav-list-content">
             <li class="nav-list-item">Portfolio</li>
             <li class="nav-list-item">Feature</li>
             <li class="nav-list-item">Profile</li>
             <li class="nav-list-item">Contact</li>
           </ul>
+          <div class="hambagar">
+            <i class="fas fa-ellipsis-v" style="color: #FAFAFA;"></i>
+          </div>
         </nav>
       </div>
     </header>
@@ -49,6 +53,11 @@
             <image src= "img/write.jpg" class="portfolio-image">
             <image src= "img/webcamp.png" class="portfolio-image">
             <image src= "img/talk.jpg" class="portfolio-image">
+            <image src= "img/webcamp-mother.png" class="portfolio-image">
+          </div>
+          <div class="portfolio-device-content">
+            <image src= "img/websuku.png" class="portfolio-image">
+            <image src= "img/webcamp.png" class="portfolio-image">
             <image src= "img/webcamp-mother.png" class="portfolio-image">
           </div>
         </section>
@@ -130,7 +139,7 @@
             The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
           </div>
           <div class="profile-item-content">
-            <div class="profile-content">
+            <div class="profile-content-icon">
               <image src= "img/my-icon.jpg" class="profile-image">
             </div>
             <div class="profile-content">
@@ -154,7 +163,57 @@
           </div>
         </section>
       </div>
-    </main>
+
+      <div class="contact-item">
+        <section class="contact">
+          <div class="contact-tittle">
+            Contact
+          </div>
+          <hr align="center">
+          <div class="contact-text">
+            It is a long established fact that a reader will be distracted by the readable<br>
+            content of a page when looking at its layout.<br>
+            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters
+          </div>
+          <div class="contact-list">
+            <div class="contact-list-item">
+              <div class="contact-address-item">
+                <div class="contact-address-title">
+                  Mail
+                </div>
+                <div class="contact-address-text">
+                  xxx@xxx.com
+                </div>
+              </div>
+              <div class="contact-address-item">
+                <div class="contact-address-title">
+                  Tel
+                </div>
+                <div class="contact-address-text">
+                  000-0000-0000
+                </div>
+              </div>
+            </div>
+            <div class="contact-list-item">
+              <div class="contact-address-title">
+                SNS
+              </div>
+              <div class="contact-sns">
+                <i class="fab fa-facebook-f icon"></i>
+                <i class="fab fa-twitter icon"></i>
+                <i class="fab fa-instagram icon"></i>
+              </div>
+            </div>
+          </div>
+      </section>
+    </div>
+
+    <footer>
+      <div class="footer-text">
+        ©2017 WebCamp
+      </div>
+    </footer>
+  </main>
 
   </body>
 </html>

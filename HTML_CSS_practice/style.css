@@ -18,6 +18,9 @@ header {
   width: 1024px;
   height: 70px;
 }
+.logo {
+  height: 70px;
+}
 
 .nav-list {
   display: flex;
@@ -31,6 +34,10 @@ header {
   margin-right: 30px;
   text-align: center;
 }
+
+.hambagar {
+  display: none;
+  }
 
 .main-visual{
   width: 100%;
@@ -80,7 +87,7 @@ main {
 
 hr {
   width: 70px;
-  border: solid 2px #EC715F;
+  border: solid 3px #EC715F;
   margin: auto;
 }
 
@@ -95,6 +102,10 @@ hr {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 90px;
+}
+
+.portfolio-device-content {
+  display: none;
 }
 
 .portfolio-image {
@@ -166,6 +177,7 @@ hr {
   width: 100%;
   display: flex;
   justify-content: center;
+  padding-bottom: 90px;
 }
 
 .profile {
@@ -192,6 +204,11 @@ hr {
  display: flex;
 }
 
+.profile-content-icon {
+  width: 512px;
+  text-align: center;
+}
+
 .profile-content {
   width: 512px;
 }
@@ -199,6 +216,7 @@ hr {
 .profile-image {
   width: 250px;
   height: 250px;
+  border-radius: 50%;
 }
 
 .profile-detail-title {
@@ -210,4 +228,347 @@ hr {
   font-size: 16px;
   color: #000000;
   margin-bottom: 20px;
+}
+
+.contact-item {
+  width: 800px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact-tittle {
+  font-size: 32px;
+  color: #000000;
+  padding-bottom: 8px;
+}
+
+.contact-text {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.contact-list {
+  display: flex;
+}
+
+.contact-list-item {
+  width: 400px;
+}
+
+.contact-address-item {
+  margin-bottom: 20px;
+}
+
+.contact-address-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.icon {
+  font-size: 50px;
+}
+
+.icon:nth-child(2) {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+footer {
+ height: 60px;
+ background-color: #EC715F;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.footer-text {
+  font-size: 16px;
+  color: #FAFAFA;
+}
+
+@media screen and (max-width:768px){
+
+    body {
+      width: 100%;
+    }
+
+  header {
+    /*background-color: #EC715F;*/
+    height: 50px;
+    /*width: 100%;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+  }
+
+  .header-item {
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    width: 90%;
+    height: 50px;
+  }
+
+  .logo {
+    height: 50px;
+  }
+
+.nav-list-content {
+    display: none;
+  }
+
+  .main-visual{
+  /*width: 100%;*/
+  /*height: 650px;*/
+  background-image: url(img/code.png);
+  background-size:  cover;
+  /*text-align: center;*/
+}
+
+.hambagar {
+  display: block;
+  }
+  .main-visual-title {
+  /*color: #FAFAFA;*/
+  font-size: 40px;
+  /*padding-top: 200px;*/
+  margin-bottom: 10px;
+}
+
+.main-visual-text {
+  /*color: #FAFAFA;*/
+  font-size: 18px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio-item {
+  /*background-color: #ECEFF1;*/
+  /*width: 100%;*/
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio {
+  width: 90%;
+  padding-bottom: 90px;
+  /*text-align: center;*/
+}
+
+
+.portfolio-title {
+  /*font-size: 32px;*/
+  /*color: #000000;*/
+  margin-top: 90px;
+  margin-bottom: 8px;
+}
+
+hr {
+  width: 70px;
+  /*border: solid 3px #EC715F;*/
+  margin: auto;
+}
+
+.portfolio-text {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.portfolio-content {
+  display: none;
+}
+.portfolio-device-content {
+  display: block;
+  /*width: 300px;*/
+  /*height: 250px;*/
+}
+
+.feature {
+  text-align: center;
+  width: 90%;
+  padding-bottom: 90px;
+  /*padding-top: 90px;*/
+}
+
+/*.feature-title {*/
+  /*margin-top: 90px;*/
+  /*font-size: 32px;*/
+  /*color: #000000;*/
+  /*margin-bottom: 8px;*/
+/*}*/
+
+/*.feature-text {*/
+/*  font-size: 16px;*/
+/*  color: #000000;*/
+/*  padding-top: 30px;*/
+/*  padding-bottom: 30px;*/
+/*  text-align: center;*/
+/*}*/
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-item-content {
+  /*width: 320px;*/
+  /*margin-right: 10px;*/
+}
+
+/*.feature-item-content:last-child {*/
+  /*margin-right: 0;*/
+/*}*/
+
+.feature-item-title {
+  padding-top: 10px;
+  padding-bottom: 10px;
+/*  font-size: 20px;*/
+/*  color: #000000;*/
+}
+
+.size {
+  font-size: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*.feature-detail {*/
+/*  text-align: justify;*/
+/*}*/
+
+.profile-item {
+  /*background-color: #ECEFF1;*/
+  /*width: 100%;*/
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*padding-bottom: 90px;*/
+}
+
+.profile {
+  width: 90%;
+}
+
+/*.profile-title {*/
+  /*font-size: 32px;*/
+  /*color: #000000;*/
+  /*margin-top: 90px;*/
+  /*margin-bottom: 8px;*/
+  /*text-align: center;*/
+/*}*/
+
+/*.profile-text {*/
+  /*font-size: 16px;*/
+  /*color: #000000;*/
+  /*padding-top: 30px;*/
+  /*padding-bottom: 30px;*/
+  /*text-align: center;*/
+/*}*/
+
+.profile-item-content {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.profile-content-icon {
+  width: 250px;
+  text-align: center;
+}
+
+.profile-content {
+  width: 350px;
+}
+
+/*.profile-image {*/
+/*  width: 250px;*/
+/*  height: 250px;*/
+/*  border-radius: 50%;*/
+/*}*/
+
+/*.profile-detail-title {*/
+/*  font-size: 20px;*/
+/*  margin-bottom: 5px;*/
+/*}*/
+
+/*.profile-detail-text {*/
+/*  font-size: 16px;*/
+/*  color: #000000;*/
+/*  margin-bottom: 20px;*/
+/*}*/
+
+.contact-item {
+  width: 90%;
+  /*padding-top: 90px;*/
+  /*padding-bottom: 90px;*/
+}
+
+/*.contact {*/
+/*  text-align: center;*/
+/*}*/
+
+/*.contact-tittle {*/
+/*  font-size: 32px;*/
+/*  color: #000000;*/
+/*  padding-bottom: 8px;*/
+/*}*/
+
+/*.contact-text {*/
+/*  margin-top: 30px;*/
+/*  margin-bottom: 30px;*/
+/*  font-size: 16px;*/
+/*  color: #000000;*/
+/*}*/
+
+.contact-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-list-item {
+  width: 250px;
+}
+
+/*.contact-address-item {*/
+/*  margin-bottom: 20px;*/
+/*}*/
+
+/*.contact-address-title {*/
+/*  font-size: 20px;*/
+/*  margin-bottom: 5px;*/
+/*}*/
+
+/*.icon {*/
+/*  font-size: 50px;*/
+/*}*/
+
+.icon:nth-child(2) {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+/*footer {*/
+/* height: 60px;*/
+/* background-color: #EC715F;*/
+ /*width: 100%;*/
+ /*display: flex;*/
+ /*align-items: center;*/
+ /*justify-content: center;*/
+/*}*/
+
+/*.footer-text {*/
+/*  font-size: 16px;*/
+/*  color: #FAFAFA;*/
+/*}*/
 }
