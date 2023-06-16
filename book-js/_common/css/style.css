@@ -21,6 +21,15 @@ body {
     margin: 0 auto;
     padding: 16px;
 }
+
+table {
+    border-collapse: collapse;
+}
+td {
+    padding: 4px 8px;
+    border: 1px solid #23628f;
+}
+
 @media (min-width: 768px) {
     .container {
         max-width: 1000px;
