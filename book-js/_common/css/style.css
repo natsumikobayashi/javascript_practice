@@ -30,6 +30,10 @@ td {
     border: 1px solid #23628f;
 }
 
+.timer {
+    font-size: 60px;
+}
+
 @media (min-width: 768px) {
     .container {
         max-width: 1000px;
