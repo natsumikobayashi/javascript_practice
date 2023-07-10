@@ -1,5 +1,5 @@
 [
-  {"id":"js","crowded":"red"},
-  {"id":"security","crowded":"no"},
-  {"id":"aiux","crowded":"no"}
+  {"id":"js","crowded":"50"},
+  {"id":"security","crowded":"50"},
+  {"id":"aiux","crowded":"0"}
 ]

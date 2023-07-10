@@ -42,6 +42,10 @@
   .green {
     background-color: #7bc52e;
   }
+
+  .orange {
+    background-color: orange;
+  }
 </style>
 <body>
 <header>
@@ -78,18 +82,38 @@
 <script src="../../_common/scripts/jquery-3.4.1.min.js"></script>
 <script>
   'use strict';
-  
+
   $(document).ready(function(){
-    //ファイルの読み込み
+    //ファイルの読み込み このHTMLページが呼び出されたときにすぐ読み込まれる
     $.ajax({url: 'data.json', dataType: "json"})
     .done(function(data){
       data.forEach(function(item, index){
-        console.log(item);
+        if(item.crowded === '100'){
+          const idName = '#' + item.id;
+          $(idName).find('.check').addClass('full');
+        } else if(item.crowded === '50'){
+          const idName = '#' + item.id;
+          $(idName).find('.check').addClass('few');
+        } else {
+          const idName = '#' + item.id;
+          $(idName).find('.check').addClass('vacant');
+        }
       })
     })
     .fail(function(){
       window.alert('読み込みエラー');
     });
+  });
+
+  // クリックされたら空き状況を表示
+  $('.check').on('click', function(){
+    if($(this).hasClass('full')){
+      $(this).text('満席').addClass('red');
+    } else if($(this).hasClass('few')){
+      $(this).text('残りわずか').addClass('orange');
+    } else {
+      $(this).text('お席あります').addClass('green');
+    }
   });
 </script>
 </body>
