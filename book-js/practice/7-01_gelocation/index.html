@@ -7,6 +7,15 @@
 <link href="../../_common/images/favicon.ico" rel="shortcut icon">
 <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:400,500" rel="stylesheet">
 <link href="../../_common/css/style.css" rel="stylesheet">
+<style>
+main section {
+    text-align: center;
+}
+.position {
+    font-size: 1.5rem;
+    color: #ed8a29;
+}
+</style>
 </head>
 <body>
 <header>
@@ -18,12 +27,9 @@
 <main>
 <div class="container">
 <section>
-  <p>あなたはいま</p>
-  <p id="loc" class="position"></p>
-  <p>の場所にいます。ちなみに精度は半径
-    <span id="accuracy" class="position"> </span>
-    ｍです。
-  </p>
+    <p>あなたはいま</p>
+    <p id="loc" class="position"></p>
+    <p>の場所にいます。ちなみに精度は半径 <span id="accuracy" class="position"></span> mです。</p>
 </section>
 </div><!-- /.container -->
 </main>
@@ -37,11 +43,11 @@
   'use strict';
 
   function success(pos) {
-    const lat = pos.coords.latitube;
-    const lng = pos.coords.longitube;
+    const lat = pos.coords.latitude;
+    const lng = pos.coords.longitude;
     const accuracy = pos.coords.accuracy;
 
-    $('#loc').text(`緯度:${lat} 経度:${lng}`);
+    $('#loc').text(`緯度：${lat} 経度：${lng}`);
     $('#accuracy').text(accuracy);
   }
 
