@@ -51,6 +51,7 @@ $.ajax({
 
     // 現在の天気とそれ以外で出力を変える
     if(index === 0) {
+      // index番号が0のときの処理（現在の天気）
       const currentWeather = `
       <div class="icon"><image src="${iconPath}"></div>
       <div class="info">
@@ -61,6 +62,7 @@ $.ajax({
       </div>`;
       $('#weather').html(currentWeather);
     } else {
+      // index番号が0以外のときの処理（予報）
       const tableRow = `
       <tr>
         <td class="info">
