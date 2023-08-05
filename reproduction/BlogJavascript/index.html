@@ -11,43 +11,59 @@
     </head>
 
     <body>
-      <header>
+      <header id="header">
         <h1 class="site-title">
           <a href="index.html">
             <img src="img/logo.svg">
           </a>
         </h1>
         <nav>
-          <ul>
-            <li>NEW</li>
-            <li>COLUMN</li>
-            <li>SERIES</li>
-            <li>Q&A</li>
-            <li>CONTACT</li>
+          <ul class="header-list">
+            <li>
+              <a href="#">NEW</a>
+            </li>
+            <li>
+              <a href="#">COLUMN</a>
+            </li>
+            <li>
+              <a href="#">SERIES</a>
+            </li>
+            <li>
+              <a href="#">Q&A</a>
+            </li>
+            <li>
+              <a href="#">CONTACT</a>
+            </li>
           </ul>
         </nav>
       </header>
       <div id="pickup">
         <article>
           <img src="img/pickup1.jpg">
-          <h2>
+          <h2 class="article-title">
             タイトルテキストテキストテキストテキスト
           </h2>
-          <a href="#">READ MORE</a>
+          <div class="readmore">
+            <a href="#">READ MORE</a>
+          </div>
         </article>
         <article>
           <img src="img/pickup2.jpg">
-          <h2>
+          <h2 class="article-title">
             タイトルテキストテキストテキストテキスト
           </h2>
-          <a href="#">READ MORE</a>
+          <div class="readmore">
+            <a href="#">READ MORE</a>
+          </div>
         </article>
         <article>
           <img src="img/pickup3.jpg">
-          <h2>
+          <h2 class="article-title">
             タイトルテキストテキストテキストテキスト
           </h2>
-          <a href="#">READ MORE</a>
+          <div class="readmore">
+            <a href="#">READ MORE</a>
+          </div>
         </article>
       </div>
       <div id="container">
@@ -62,9 +78,11 @@
             <p>テキストテキストテキストテキストテキストテキストテキストテキスト
             テキストテキストテキストテキストテキストテキストテキストテキスト
             テキストテキストテキストテキストテキストテキストテキストテキスト</p>
-            <a href="#">READ MORE</a>
+            <div class="readmore">
+              <a href="#">READ MORE</a>
+            </div>
           </article>
-                    <article>
+          <article>
             <h2>タイトルテキストテキストテキストテキスト</h2>
             <ul>
               <li>2022/01/01</li>
@@ -74,7 +92,9 @@
             <p>テキストテキストテキストテキストテキストテキストテキストテキスト
             テキストテキストテキストテキストテキストテキストテキストテキスト
             テキストテキストテキストテキストテキストテキストテキストテキスト</p>
-            <a href="#">READ MORE</a>
+            <div class="readmore">
+              <a href="#">READ MORE</a>
+            </div>
           </article>
                     <article>
             <h2>タイトルテキストテキストテキストテキスト</h2>
@@ -86,10 +106,12 @@
             <p>テキストテキストテキストテキストテキストテキストテキストテキスト
             テキストテキストテキストテキストテキストテキストテキストテキスト
             テキストテキストテキストテキストテキストテキストテキストテキスト</p>
-            <a href="#">READ MORE</a>
+            <div class="readmore">
+              <a href="#">READ MORE</a>
+            </div>
           </article>
         </main>
-        <aside>
+        <aside id="sidebar">
           <section class="author">
             <img src="img/author.jpg">
             <h3>Name Name</h3>
@@ -165,6 +187,7 @@
             <h3>Twitter</h3>
           </section>
         </div>
+        <p class="copyright">🄫Travel & Blog</p>
       </footer>
     </body>
 </html>
