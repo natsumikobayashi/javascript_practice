@@ -6,6 +6,10 @@
       <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <link rel="icon" href="img/favicon.ico">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Merriweather:wght@900&family=Noto+Sans:wght@100&display=swap" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Merriweather:wght@900&family=Noto+Sans+JP:wght@100;200&family=Noto+Sans:wght@100&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
       <link rel="stylesheet" href="css/style.css">
     </head>
@@ -160,31 +164,48 @@
         </aside>
       </div>
       <footer>
-        <div class="content">
+        <div class="wrapper" id="content">
           <section class="item">
             <h3>About</h3>
             <p>テキストテキストテキストテキスト
             テキストテキストテキストテキスト
             テキストテキストテキストテキスト
             テキストテキストテキストテキスト</p>
-            <ul>
-              <li>プロフィール詳細</li>
-              <li>お仕事の依頼</li>
-              <li>お問い合わせ</li>
+            <ul id="about-list">
+              <li>
+                <a href="#" class="arrow">プロフィール詳細</a>
+              </li>
+              <li>
+                <a href="#" class="arrow">お仕事の依頼</a>
+              </li>
+              <li>
+                <a href="#" class="arrow">お問い合わせ</a>
+              </li>
             </ul>
           </section>
           <section class="item">
             <h3>Menu</h3>
-            <ul>
-              <li>NEW</li>
-              <li>CATEGORY</li>
-              <li>COLUMN</li>
-              <li>SERIES</li>
-              <li>Q&A</li>
+            <ul id="menu-list">
+              <li>
+                <a href="#">NEW</a>
+              </li>
+              <li>
+                <a href="#">CATEGORY</a>
+              </li>
+              <li>
+                <a href="#">COLUMN</a>
+              </li>
+              <li>
+                <a href="#">SERIES</a>
+              </li>
+              <li>
+                <a href="#">Q&A</a>
+              </li>
             </ul>
           </section>
           <section class="item">
             <h3>Twitter</h3>
+            <a class="twitter-timeline" data-lang="ja" data-width="400" data-height="400" data-theme="light" href="https://twitter.com/sanoreofficial?ref_src=twsrc%5Etfw">Tweets by sanoreofficial</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
           </section>
         </div>
         <p class="copyright">🄫Travel & Blog</p>
