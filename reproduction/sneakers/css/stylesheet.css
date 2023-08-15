@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+.video {
+  max-width: 100%;
+}
+
 #hm-icon {
   position: fixed;
   right: 20px;
@@ -34,3 +38,4 @@
 .menu-trigger span:nth-child(3) {
   bottom: 0;
 }
+
