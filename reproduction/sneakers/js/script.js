@@ -5,3 +5,10 @@ $(function() {
     event.preventDefault();
   });
 });
+
+$(function() {
+  $('#sp-menu').on('click', function(event) {
+    $(this).fadeToggle();
+    $('.menu-trigger').removeClass('active');
+  });
+})
