@@ -133,3 +133,14 @@ img {
 .multiple { padding: 0;}
 .multiple img { width: 100%;}
 .multiple div { margin: 0 5px;}
+
+
+#feature .grid {
+  display: grid;
+  gap: 26px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+#feature .item {
+  
+}
