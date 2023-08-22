@@ -134,6 +134,13 @@ img {
 .multiple img { width: 100%;}
 .multiple div { margin: 0 5px;}
 
+#feature {
+  padding-top: 100px;
+}
+
+#feature h2 {
+  text-align: center;
+}
 
 #feature .grid {
   display: grid;
@@ -142,5 +149,23 @@ img {
 }
 
 #feature .item {
-  
+  box-shadow: 0 0 8px 4px #ccc;
+}
+
+#feature .item-content {
+  padding: 30px;
+}
+
+#feature .item-text {
+  font-weight: bold;
+}
+
+#feature .item-date {
+  text-align: end;
+}
+
+.fadein {
+  opacity : 0;
+  transform: translateY(20px);
+  transition: all 1s;
 }
