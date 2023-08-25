@@ -135,7 +135,7 @@ img {
 .multiple div { margin: 0 5px;}
 
 #feature {
-  padding-top: 100px;
+  padding: 100px 16px 50px 16px;
 }
 
 #feature h2 {
@@ -168,4 +168,62 @@ img {
   opacity : 0;
   transform: translateY(20px);
   transition: all 1s;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+#contact {
+  background-color: #121212;
+  color: white;
+  padding: 50px 0;
+}
+
+#contact .content {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-info {
+  width: 45%;
+}
+
+.contact-form {
+  width: 45%;
+}
+
+dd {
+  margin-left: 0;
+}
+
+.contact-form input {
+  padding: 10px;
+  width: 100%;
+}
+
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.button input {
+  width: 200px;
+  color: #fff;
+  background-color: #121212;
+  border: solid 1px #fff;
+  padding: 12px 0;
+  margin-bottom: 0;
+}
+
+.button input:hover {
+  background-color: #fff;
+  color: #121212;
+}
+
+footer {
+  background-color: #121212;
+  color: #fff;
+  padding: 10px;
 }
