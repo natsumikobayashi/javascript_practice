@@ -22,17 +22,17 @@
             <li><a href="#contact">CONTACT</a></li>
           </ul>
           <ul class="sns-menu">
-            <li><a href="https://twitter.com/">Twitter</a></li>
-            <li><a href="https://www.instagram.com/">Instagram</a></li>
-            <li><a href="https://www.facebook.com/">Facebook</a></li>
+            <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+            <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+            <li><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
           </ul>
         </nav>
         <nav id="hm-icon">
-          <a class="menu-trigger" gref="#">
+          <div class="menu-trigger">
             <span></span>
             <span></span>
             <span></span>
-          </a>
+          </div>
         </nav>
       </header>
       <main>
@@ -233,11 +233,11 @@
             <div class="contact-form">
               <form action="#">
                 <dl>
-                  <dt>Name:</dt>
-                  <dd><input type="name"></dd>
-                  <dt>Mail:</dt>
-                  <dd><input type="mail"></dd>
-                  <dt>Message:</dt>
+                  <dt><label for="name">Name:</label></dt>
+                  <dd><input type="text" id="name" name="your-name"></dd>
+                  <dt><label for="email">Mail:</label></dt>
+                  <dd><input type="email" id="email" name="your-mail"></dd>
+                  <dt><label for="message">Message:</label></dt>
                   <dd><textarea id="message" name="your-message"></textarea></dd>
                 </dl>
                 <div class="button">
@@ -249,7 +249,7 @@
         </section>
       </main>
       <footer>
-        <p>ⒸSneakers</p>
+        <p>&copy; Sneakers</p>
       </footer>
     </body>
     <script src="js/jquery.min.js"></script>
