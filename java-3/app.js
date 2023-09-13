@@ -31,13 +31,34 @@ for(var num = 1; num <= 10; num++) {
         console.log(num);
       }
     }
-    
-let number = [20];
 
-console.log(number);
+//pokemonクラスを用意
+class pokemon {
+  constructor(a,b,c){
+    this.name = a;
+    this.type = b;
+    this.hp = c;
+  }
+}
+//satoshinopokemonたちを配列を用意
+let satoshinopokemon = [];
+//satoshinopokemonに新しいインスタンスを生成
+satoshinopokemon[0] = new pokemon("pikachu", "denki", 30);
+satoshinopokemon[1] = new pokemon("pikachu2", "denki", 30);
+satoshinopokemon[2] = new pokemon("pikachu3", "denki", 30);
+
+for(let pokemons of satoshinopokemon){
+  console.log(pokemons);
+}
+
+let teki = new pokemon("myuu", "mizu", 90);
+console.log(teki);
+
+
+
 // for(let max = 20; max<= number.length;){
 // 	if(){
-		
+
 // 	}
 // }
 
