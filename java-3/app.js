@@ -54,6 +54,18 @@ for(let pokemons of satoshinopokemon){
 let teki = new pokemon("myuu", "mizu", 90);
 console.log(teki);
 
+console.log(pokemon);
+
+let numbers = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19];
+
+for(let i of numbers){
+  if(i <= 10){
+
+  }
+  console.log(i);
+}
+
+// console.log(members);
 
 
 // for(let max = 20; max<= number.length;){
