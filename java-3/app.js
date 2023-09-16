@@ -56,45 +56,104 @@ console.log(teki);
 
 console.log(pokemon);
 
-let numbers = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19];
+		console.log("Q1");
+		for(let i = 0; i<5; i++) {
+				console.log("■");
+		}
 
-for(let i of numbers){
-  if(i <= 10){
+		console.log("Q2");
+		for(let i = 0; i < 5; i++) {
+			console.log("■");
+		}
 
-  }
-  console.log(i);
-}
+		console.log("Q3");
+		let v = 10;
+		for(let i = 0; i < v; i++) {
+			console.log("★");
+		}
 
-// console.log(members);
+		console.log("Q4");
+		let n = 10;
+		for(let i = 0; i < n; i++) {
+			console.log("★");
+		}
 
+		console.log("Q5");
+		let a = 5;
+		let b = 5;
+		for(let i = 0; i < a; i++) {
+			for(let c = 0; c < b; c++) {
+				console.log("●");
+			}
+		}
 
-// for(let max = 20; max<= number.length;){
-// 	if(){
+		console.log("Q6");
+		let d = 10;
+		for(let i = 1; i <= d; i++) {
+			if(i % 2 != 0) {
+				console.log("◇");
+			} else {
+				console.log("◆");
+			}
+		}
+		console.log("Q14");
+		let e = 7;
+		for(let i = 1; i <= e; i++) {
+			console.log(i);
+		}
 
-// 	}
-// }
+		console.log("Q15");
+		let f = 7;
+		for(let i = 1; i <= f; i++) {
+			let g = i * 10;
+			console.log(g);
+		}
 
+		console.log("Q16");
+		let h = 20;
+		let bai = 4;
+		for(let i = 1; i <= h; i++) {
+			if(i % bai == 0) {
+				console.log(i);
+			}
+		}
 
-// int number[] = new int[20]; //20の要素を作成
-// 			String str ="";
-// 			number[0] = 0;
-// 			for(int i = 1; i < number.length; i++) {
-// 				number[i] = number[i - 1] + 5; //0から5ずつnumber[i]に加算
-// 			}
+		console.log("Q18");
+		let j = 10;
+		for(let i = j; i >= 1; i--) {
+			console.log(i);
+		}
 
-// 			System.out.print("奇数 : ");
-// 			for (int i = 0; i < 11; i++) {
-// 				if (number[i] % 2 != 0) {
-// 					str += String.valueOf(number[i]) + ",";
-// 				}
-// 			}
+		console.log("Q19");
+		let k = 7;
+		for(let i = 1; i<= k; i++) {
+			if(i != k) {
+				console.log(i+",");
+			} else {
+				console.log(i);
+			}
+		}
+		console.log("Q21");
+		let l = 20;
+		for(let i = 1; i <= l; i++) {
+			if(i % 3 != 0) {
+				console.log(i);
+			} else {
+				console.log("?");
+			}
 
-// 			System.out.println(str.substring(0, str.length() - 1));
-// 			System.out.print("偶数 : ");
-// 			str = "";
-// 			for (int i = 11; i < 20; i++) {
-// 				if (number[i] % 2 == 0) {
-// 					str += String.valueOf(number[i]) + ",";
-// 				}
-// 			}
-// 			System.out.println(str.substring(0, str.length() - 1));
+			if(i != l) {
+				console.log(",");
+			}
+		}
+		console.log("Q22");
+		let m = 9;
+		for(let i = 1; i <= m; i++) {
+			for(let o = 1; o <= m; o++) {
+				let ans = i * o;
+				if(ans < 10) {
+					console.log(" ");
+				}
+				console.log(ans+" ");
+			}
+		}
