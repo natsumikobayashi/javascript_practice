@@ -157,3 +157,28 @@ console.log(pokemon);
 				console.log(ans+" ");
 			}
 		}
+
+
+		let number = [20];
+		number[0] = 0;
+		for(let i = 0; i < number.length; i++) {
+			number[i] = (i+1)*5;
+		}
+
+		console.log("[0]～[10]の中の奇数は、");
+		for(let i = 0; i <= 10; i++) {
+			if(i<10 && number[i] % 2 != 0) {
+				console.log(number[i]+",");
+			}else if(i == 10 && number[i] % 2 != 0) {
+					console.log(number[i]);
+			}
+		}
+
+		console.log("[11]～[19]の中の偶数は、");
+		for(let i = 11; i <= 19; i++) {
+			if(i<19 && number[i] % 2 == 0) {
+				console.log(number[i]+",");
+			}else if(i == 19 && number[i] % 2 == 0) {
+				console.log(number[i]);
+			}
+}
