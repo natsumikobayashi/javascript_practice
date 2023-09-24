@@ -159,8 +159,9 @@ console.log(pokemon);
 		}
 
 
-		let number = [20];
+		let number = Array.from( { length : 20 } );
 		number[0] = 0;
+		
 		for(let i = 0; i < number.length; i++) {
 			number[i] = (i+1)*5;
 		}
